@@ -1,4 +1,4 @@
-Author:Prasanna Subburaj(pxs142130),Hari Kishore Reddy Desanur(hxd140930),Ajay Chinthalapalli Jayakumar(axc142430)
+Author:Prasanna Subburaj,Hari Kishore Reddy Desanur,Ajay Chinthalapalli Jayakumar.
 Project Title:Implementation of Raymond's Token Based Mutual Exclusion protocol in a Distributed System (SCTP)
 Date: 28th July 2015
 The following are the information need to run our project
@@ -34,9 +34,3 @@ The following are the information need to run our project
 	d. In the verifyCode.py supply the path to the data.txt
 	e. Run the python script by typing python verificationpgmname
 	f. verificationpgmname can be either verifyVector.py or verifyCode.py
-
-
-NOTE: configuraton file should be exactly names as config.txt to enable all the above programs to run
-
-For exponential distribution we are using code from source http://www.cs.technion.ac.il/~azlotnik/RandomNumberGenerator.java.html
-
