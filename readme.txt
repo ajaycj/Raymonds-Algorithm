@@ -1,6 +1,3 @@
-Programming Assignment 2: Advanced Operating Systems (CE6378)
-Summer 2015
-Guided By: Prof.Dr.Neeraj Mittal
 Author:Prasanna Subburaj(pxs142130),Hari Kishore Reddy Desanur(hxd140930),Ajay Chinthalapalli Jayakumar(axc142430)
 Project Title:Implementation of Raymond's Token Based Mutual Exclusion protocol in a Distributed System (SCTP)
 Date: 28th July 2015
