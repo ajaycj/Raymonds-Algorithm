@@ -6,24 +6,6 @@ import java.nio.*;
 import java.util.*;
 import java.util.concurrent.Semaphore;
 
-/** 
- * RandomNumberGenerator creates random numbers according to one of the following distributions:
- * Poisson, Exponential, Geometric, Pareto, ParetoBounded, Uniform or Constant 
- *  
- * The method getRandom() will return the next random value.  
- * It can use a provided stream Random r, if needed, or use the default stream. 
- *  
- * For most of the distributions a single distribution parameter is needed.  
- * USAGE: double rand = Exponential.getRandom(0.25); 
- *  
- * When the wrong number of parameters is passed, IllegalArgumentException is thrown. 
- *  
- * Contact: zxy754219@gmail.com 
- *  
- * @author alexz3 
- *  
- * 
- */ 
 public enum Application{     
      
     Poisson { 
