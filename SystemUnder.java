@@ -8,12 +8,12 @@ import java.util.concurrent.*;
 
 class SctpServer implements Runnable
 {
-	int serverPortNumber;						//Port Number on which the Node will be Listening to accept connection
-	int myNodeID;								//NodeID of the node
-	int waitingForResponse;						//Variable to prevent the node from sending extra NEB(neighbour) request
-	int parentNode;								//Parent node in the Spanning Tree
-	int totalNodes=0;							//Variable to hold the number of nodes in the Graph
-	int countNodes=0;							//Variable used to count the number of nodes who found their neighbours during Spanning Tree formation
+	int serverPortNumber;	//Port Number on which the Node will be Listening to accept connection
+	int myNodeID;	        //NodeID of the node
+	int waitingForResponse;	//Variable to prevent the node from sending extra NEB(neighbour) request
+	int parentNode;		//Parent node in the Spanning Tree
+	int totalNodes=0;	//Variable to hold the number of nodes in the Graph
+	int countNodes=0;	//Variable used to count the number of nodes who found their neighbours during Spanning Tree formation
 	
 	Boolean startingNode;						//This variable is true if current node is the designated node to start building spanning tree
 	Boolean allResponse;
